@@ -16,3 +16,7 @@ header {
 .App {
     background-color: #1e2329;
 }
+
+html {
+    scroll-behavior: smooth;
+}
