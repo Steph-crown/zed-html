@@ -1,0 +1,44 @@
+div.header-container img {
+    height: 40px;
+}
+
+@media (max-width: 500px) {
+    div.header-container img {
+        height: 20px;
+    }
+}
+
+div.header-container {
+    padding: 2.2em 0;
+    padding-bottom: 1.8em;
+
+    display: flex;
+    justify-content: space-between;
+    min-height: 2px;
+    align-items: center;
+}
+
+@media (max-width: 500px) {
+    div.header-container {
+        padding: 1.8em 0;
+    }
+}
+
+/* export const HeaderContainer = styled.header`
+    img {
+        height: 80px;
+        @media (max-width: 500px) {
+            height: 40px;
+        }
+    }
+
+    padding: 2.2em 0;
+    padding-bottom: 1.8em;
+    @media (max-width: 500px) {
+        padding: 1.8em 0;
+    }
+    display: flex;
+    justify-content: space-between;
+    min-height: 2px;
+    align-items: center;
+`; */

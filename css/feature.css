@@ -1,0 +1,227 @@
+section.feature-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+    background-color: transparent;
+    border-bottom: 1px solid #fca400;
+    border-top: 1px solid #fca400;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+@media (max-width: 700px) {
+    section.feature-container {
+        flex-direction: column;
+        border-top: none;
+        border-bottom: none;
+        padding-top: 56px;
+        padding-bottom: 56px;
+    }
+}
+
+div.feature-card {
+    width: 30%;
+
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+section.feature-container div.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+section.feature-container div.header img {
+    height: 128px;
+}
+
+div.feature-card h4 {
+    font-size: 2em;
+    text-align: center;
+    margin-top: 1.5em;
+}
+
+div.feature-card p {
+    color: #a9a7a7;
+    line-height: 32px;
+    text-align: center;
+    font-size: 1.25em;
+    margin-top: 8px;
+    font-weight: normal;
+}
+
+@media (max-width: 1200px) {
+    div.header img {
+        height: 100px;
+    }
+    div.header h4 {
+        margin-top: 1em;
+        font-weight: bold;
+        font-size: 1.6em;
+        line-height: 33px;
+    }
+}
+
+@media (max-width: 1000px) {
+    div.feature-card {
+        width: 28%;
+    }
+
+    div.feature-card div.header img {
+        height: 80px;
+    }
+    div.feature-card div.header h4 {
+        margin-top: 1em;
+        font-weight: bold;
+        font-size: 1.4em;
+        line-height: 33px;
+    }
+    div.feature-card div.header p {
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 700px) {
+    div.feature-card {
+        width: 100%;
+        background: #292f33;
+        border-radius: 16px;
+        margin-bottom: 1em;
+        padding: 24px 16px;
+    }
+    div.feature-card div.header div.header img {
+        height: 64px;
+    }
+    div.feature-card div.header h4 {
+        margin-top: 1em;
+        font-weight: bold;
+        font-size: 1.25em;
+        line-height: 33px;
+    }
+    div.feature-card p {
+        font-size: 16px;
+        line-height: 25px;
+        text-align: center;
+        margin-top: 10px;
+    }
+}
+
+/* import styled from "styled-components";
+
+export const FeatureContainer = styled.section`
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+    background-color: transparent;
+    border-bottom: 1px solid #fca400;
+    border-top: 1px solid #fca400;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+    @media (max-width: 700px) {
+        flex-direction: column;
+        border-top: none;
+        border-bottom: none;
+        padding-top: 56px;
+        padding-bottom: 56px;
+    }
+
+    div.feature-card {
+        width: 30%;
+
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        div.header {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            svg {
+                height: 128px;
+            }
+
+            h4 {
+                font-size: 2em;
+                text-align: center;
+                margin-top: 1.5em;
+            }
+        }
+
+        p {
+            color: #a9a7a7;
+            line-height: 32px;
+            text-align: center;
+            font-size: 1.25em;
+            margin-top: 8px;
+            font-weight: normal;
+        }
+
+
+        @media (max-width: 1200px) {
+           
+            div.header {
+                svg {
+                    height: 100px;
+                }
+                h4 {
+                    margin-top: 1em;
+                    font-weight: bold;
+                    font-size: 1.6em;
+                    line-height: 33px;
+                }
+            }
+        }
+
+        @media (max-width: 1000px) {
+            width: 28%;
+
+            div.header {
+                svg {
+                    height: 80px;
+                }
+                h4 {
+                    margin-top: 1em;
+                    font-weight: bold;
+                    font-size: 1.4em;
+                    line-height: 33px;
+                }
+                p {
+                    font-size: 1em;
+                }
+            }
+        }
+
+        @media (max-width: 700px) {
+            width: 100%;
+            background: #292f33;
+            border-radius: 16px;
+            margin-bottom: 1em;
+            padding: 24px 16px;
+
+            div.header {
+                svg {
+                    height: 64px;
+                }
+                h4 {
+                    margin-top: 1em;
+                    font-weight: bold;
+                    font-size: 1.25em;
+                    line-height: 33px;
+                }
+            }
+
+            p {
+                font-size: 16px;
+                line-height: 25px;
+                text-align: center;
+                margin-top: 10px;
+            }
+        }
+
+        
+    }
+`; */

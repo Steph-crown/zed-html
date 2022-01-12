@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="./assets/icon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#fff" />
+    <meta name="description" content="There is a new way to handle money." />
+    <link rel="apple-touch-icon" href="./assets/icon.svg" />
+
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/fonts/stylesheet.css">
+    <link rel="stylesheet" href="./css/root.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/banner.css">
+    <link rel="stylesheet" href="./css/cross-button.css">
+    <link rel="stylesheet" href="./css/feature.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/input-group.css">
+
+    <title>ZedVest - Coming Soon</title>
+</head>
+
+<body>
+    <div id="root">
+        <div class="App">
+            <div class="banner-container">
+                <div style="padding: 0 calc(0.08 * 100vw)">
+                    <div class="header-container">
+                        <img src="./assets/full-logo.svg" alt="Logo" />
+                        <button class="cross-button-container">
+                            <div class="text">Notify me</div>
+                            <div class="cross"></div>
+                        </button>
+                    </div>
+                </div>
+                <div class="banner">
+                    <img src="./assets/avatar-round.png" alt="Avatars" class="avatar-round" />
+                    <div class="banner-flex">
+                        <div class="center">
+
+                            <h1 data-aos="fade-up">
+                                There is a new way to handle money.
+                            </h1>
+                            <p data-aos="fade-up">
+                                Zedvest uses <span>artificial intelligence</span> to
+                                give periodic reports and feedback on your spending
+                                and saving culture to make sure you keep up with
+                                your goals whether in spending or saving. Get proven
+                                tips on how to make the most of your savings and
+                                keep your spending in check.
+                            </p>
+                            <p data-aos="fade-up" class="launch">
+                                Be the first to know when we launch.
+                            </p>
+                            <StrokeInput />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Features -->
+            <section class="feature-container">
+                <div class="feature-card" data-aos="fade-up">
+                    <div class="header">
+                        <img src="./assets/learn.svg" alt="Learn">
+                        <h4>Learn as you Bank.</h4>
+                    </div>
+                    <p>
+                        Gain understanding to your spending and money management
+                        behaviour and find ways to improve on it.
+                    </p>
+                </div>
+                <div class="feature-card" data-aos="fade-up">
+                    <div class="header">
+                        <img src="./assets/security.svg" alt="Secure">
+                        <h4>Security Encryption.</h4>
+                    </div>
+                    <p>
+                        Not only can you save smartly, you can be rest assured of
+                        your assests being secure.
+                    </p>
+                </div>
+                <div class="feature-card" data-aos="fade-up">
+                    <div class="header">
+                        <img src="./assets/privacy.svg" alt="Privacy">
+                        <h4>Privacy Protection.</h4>
+                    </div>
+                    <p>
+                        Your information and assest details are safe and will not be
+                        shared without your permission.
+                    </p>
+                </div>
+            </section>
+
+
+            <div class="footer-container">
+                <footer>
+
+                    <img src="./assets/comment1.png" alt="" class="com1 c" />
+                    <img src="./assets/comment2.png" alt="" class="com2 c" />
+                    <img src="./assets/comment3.png" alt="" class="com3 c" />
+                    <img src="./assets/comment4.png" alt="" class="com4 c" />
+                    <img src="assets/memoji1.png" alt="" class="mem m1" />
+                    <img src="assets/memoji2.png" alt="" class="mem m2" />
+                    <img src="assets/memoji3.png" alt="" class="mem m3" />
+
+                    <section class="pre-footer">
+                        <h2>Build a financially stable future with Zedvest.</h2>
+                        <h6>
+                            Your financial freedom is now in the palm of your hands.
+                        </h6>
+                        <h4>Sign up for early access.</h4>
+                        <div class="input-group">
+                            <div class="input-group-container">
+                                <input type="text" placeholder="Enter your email address" />
+                                <button class="filled">
+                                    <div className="text">Notify Me</div>
+                                </button>
+                                <!-- <FilledButton text="Notify Me" /> -->
+                            </div>
+                            <InputGroup />
+                        </div>
+
+                    </section>
+                    <div class="empty"></div>
+                </footer>
+                <div style=' background: black; padding: 20px calc(0.08 * 100vw) ' class="end">
+                    <img src="./assets/full-logo.svg" alt="Logo" class="logo" />
+
+                    <p style=" text-align: center ; color: white ; font-size: 14px ; text-decoration: none ;
+                            display: block ; margin: auto ;" class="md">
+                        Copyright 2022. Zedvest. All rights reserved.
+                    </p>
+                    <div class="socials md">
+                        <a href="mailto:hello@zedvest.com" target={"_blank"} rel="noreferrer">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M12 24C18.6274 24 24 18.6274 24 12C24 5.37258 18.6274 0 12 0C5.37258 0 0 5.37258 0 12C0 18.6274 5.37258 24 12 24ZM18 10.582C18 10.4672 17.8641 10.3992 17.7727 10.4719C17.2477 10.8797 16.5539 11.4 14.1633 13.1367C14.0908 13.1896 14.0095 13.2524 13.9209 13.3209C13.4285 13.7019 12.7092 14.2583 12 14.2523C11.2941 14.2563 10.5865 13.7103 10.0862 13.3243C9.99682 13.2553 9.91403 13.1914 9.83906 13.1367C7.44844 11.4 6.75234 10.882 6.22734 10.4742C6.13359 10.4016 6 10.4672 6 10.5844V15.375C6 15.9961 6.50391 16.5 7.125 16.5H16.875C17.4961 16.5 18 15.9961 18 15.375V10.582ZM13.4869 12.7069C13.0654 13.0327 12.4506 13.5078 12 13.5C11.5494 13.5078 10.9346 13.0327 10.5131 12.7069C10.426 12.6396 10.3471 12.5787 10.2797 12.5297C7.39709 10.4378 6.98283 10.1136 6.36664 9.63138C6.318 9.59332 6.2681 9.55427 6.21562 9.51328C6.07969 9.40547 6 9.24375 6 9.07031V8.625C6 8.00391 6.50391 7.5 7.125 7.5H16.875C17.4961 7.5 18 8.00391 18 8.625V9.07031C18 9.24375 17.9203 9.40781 17.7844 9.51328C17.7442 9.54483 17.7054 9.57522 17.6677 9.60489C17.0316 10.1043 16.6561 10.3992 13.7203 12.5297C13.6529 12.5787 13.574 12.6396 13.4869 12.7069Z"
+                                    fill="white" />
+                            </svg> </a>
+                        <a href="https://twitter.com/zedvest" target={"_blank"} rel="noreferrer">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M12 0.48C5.63758 0.48 0.47998 5.6376 0.47998 12C0.47998 18.3624 5.63758 23.52 12 23.52C18.3624 23.52 23.52 18.3624 23.52 12C23.52 5.6376 18.3624 0.48 12 0.48ZM16.686 9.9168C16.6908 10.0152 16.692 10.1136 16.692 10.2096C16.692 13.2096 14.4108 16.6668 10.2372 16.6668C9.00393 16.6689 7.79634 16.3147 6.75958 15.6468C6.93598 15.6684 7.11718 15.6768 7.30078 15.6768C8.36398 15.6768 9.34198 15.3156 10.1184 14.706C9.64524 14.6967 9.18679 14.54 8.80691 14.2578C8.42704 13.9756 8.14468 13.5819 7.99918 13.1316C8.33897 13.1962 8.689 13.1827 9.02278 13.092C8.50924 12.9882 8.04742 12.7099 7.71563 12.3044C7.38384 11.8989 7.20251 11.3911 7.20238 10.8672V10.8396C7.50838 11.0088 7.85878 11.112 8.23078 11.124C7.74934 10.8035 7.40852 10.3112 7.27803 9.74776C7.14755 9.18431 7.23724 8.5923 7.52878 8.0928C8.09873 8.7936 8.80949 9.3669 9.61506 9.77557C10.4206 10.1842 11.303 10.4192 12.2052 10.4652C12.0905 9.97837 12.1399 9.46729 12.3456 9.01141C12.5513 8.55552 12.9019 8.18039 13.3429 7.94432C13.7838 7.70825 14.2904 7.62447 14.7839 7.70601C15.2773 7.78754 15.73 8.02983 16.0716 8.3952C16.5794 8.29473 17.0664 8.10847 17.5116 7.8444C17.3423 8.37016 16.988 8.81661 16.5144 9.1008C16.9642 9.04662 17.4034 8.92569 17.8176 8.742C17.5134 9.19787 17.1301 9.59572 16.686 9.9168V9.9168Z"
+                                    fill="white" />
+                            </svg>
+
+                        </a>
+                        <a href="https://www.linkedin.com/company/zedvest-tech" target={"_blank"} rel="noreferrer">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M12 0.48C5.63758 0.48 0.47998 5.6376 0.47998 12C0.47998 18.3624 5.63758 23.52 12 23.52C18.3624 23.52 23.52 18.3624 23.52 12C23.52 5.6376 18.3624 0.48 12 0.48ZM9.17998 16.7748H6.84718V9.2676H9.17998V16.7748ZM7.99918 8.346C7.26238 8.346 6.78598 7.824 6.78598 7.1784C6.78598 6.5196 7.27678 6.0132 8.02918 6.0132C8.78158 6.0132 9.24238 6.5196 9.25678 7.1784C9.25678 7.824 8.78158 8.346 7.99918 8.346ZM17.7 16.7748H15.3672V12.6144C15.3672 11.646 15.0288 10.9884 14.1852 10.9884C13.5408 10.9884 13.158 11.4336 12.9888 11.862C12.9264 12.0144 12.9108 12.2304 12.9108 12.4452V16.7736H10.5768V11.6616C10.5768 10.7244 10.5468 9.9408 10.5156 9.2664H12.5424L12.6492 10.3092H12.696C13.0032 9.8196 13.7556 9.0972 15.0144 9.0972C16.5492 9.0972 17.7 10.1256 17.7 12.336V16.7748V16.7748Z"
+                                    fill="white" />
+                            </svg>
+                        </a>
+                        <a href="https://www.instagram.com/zedvest_app" target={"_blank"} rel="noreferrer">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M24 12C24 18.6274 18.6274 24 12 24C5.37258 24 0 18.6274 0 12C0 5.37258 5.37258 0 12 0C18.6274 0 24 5.37258 24 12ZM12 10C11.4696 10 10.9609 10.2107 10.5858 10.5858C10.2107 10.9609 10 11.4696 10 12C10 12.5304 10.2107 13.0391 10.5858 13.4142C10.9609 13.7893 11.4696 14 12 14C12.5304 14 13.0391 13.7893 13.4142 13.4142C13.7893 13.0391 14 12.5304 14 12C14 11.4696 13.7893 10.9609 13.4142 10.5858C13.0391 10.2107 12.5304 10 12 10ZM7.05442 7.05442C7.72955 6.37928 8.64522 6 9.6 6H14.4C15.3548 6 16.2705 6.37928 16.9456 7.05442C17.6207 7.72955 18 8.64522 18 9.6V14.4C18 15.3548 17.6207 16.2705 16.9456 16.9456C16.2705 17.6207 15.3548 18 14.4 18H9.6C8.64522 18 7.72955 17.6207 7.05442 16.9456C6.37928 16.2705 6 15.3548 6 14.4V9.6C6 8.64522 6.37928 7.72955 7.05442 7.05442ZM10.0201 10.0201C9.495 10.5452 9.2 11.2574 9.2 12C9.2 12.7426 9.495 13.4548 10.0201 13.9799C10.5452 14.505 11.2574 14.8 12 14.8C12.7426 14.8 13.4548 14.505 13.9799 13.9799C14.505 13.4548 14.8 12.7426 14.8 12C14.8 11.2574 14.505 10.5452 13.9799 10.0201C13.4548 9.495 12.7426 9.2 12 9.2C11.2574 9.2 10.5452 9.495 10.0201 10.0201ZM15.6 9.2H14.8V8.4H15.6V9.2Z"
+                                    fill="white" />
+                            </svg>
+                        </a>
+                    </div>
+
+                    <div class="socials sm">
+                        <a href="mailto:hello@zedvest.com" target={"_blank"} rel="noreferrer">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M12 24C18.6274 24 24 18.6274 24 12C24 5.37258 18.6274 0 12 0C5.37258 0 0 5.37258 0 12C0 18.6274 5.37258 24 12 24ZM18 10.582C18 10.4672 17.8641 10.3992 17.7727 10.4719C17.2477 10.8797 16.5539 11.4 14.1633 13.1367C14.0908 13.1896 14.0095 13.2524 13.9209 13.3209C13.4285 13.7019 12.7092 14.2583 12 14.2523C11.2941 14.2563 10.5865 13.7103 10.0862 13.3243C9.99682 13.2553 9.91403 13.1914 9.83906 13.1367C7.44844 11.4 6.75234 10.882 6.22734 10.4742C6.13359 10.4016 6 10.4672 6 10.5844V15.375C6 15.9961 6.50391 16.5 7.125 16.5H16.875C17.4961 16.5 18 15.9961 18 15.375V10.582ZM13.4869 12.7069C13.0654 13.0327 12.4506 13.5078 12 13.5C11.5494 13.5078 10.9346 13.0327 10.5131 12.7069C10.426 12.6396 10.3471 12.5787 10.2797 12.5297C7.39709 10.4378 6.98283 10.1136 6.36664 9.63138C6.318 9.59332 6.2681 9.55427 6.21562 9.51328C6.07969 9.40547 6 9.24375 6 9.07031V8.625C6 8.00391 6.50391 7.5 7.125 7.5H16.875C17.4961 7.5 18 8.00391 18 8.625V9.07031C18 9.24375 17.9203 9.40781 17.7844 9.51328C17.7442 9.54483 17.7054 9.57522 17.6677 9.60489C17.0316 10.1043 16.6561 10.3992 13.7203 12.5297C13.6529 12.5787 13.574 12.6396 13.4869 12.7069Z"
+                                    fill="white" />
+                            </svg>
+
+                        </a>
+                        <a href="https://twitter.com/zedvest" target={"_blank"} rel="noreferrer">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M12 0.48C5.63758 0.48 0.47998 5.6376 0.47998 12C0.47998 18.3624 5.63758 23.52 12 23.52C18.3624 23.52 23.52 18.3624 23.52 12C23.52 5.6376 18.3624 0.48 12 0.48ZM16.686 9.9168C16.6908 10.0152 16.692 10.1136 16.692 10.2096C16.692 13.2096 14.4108 16.6668 10.2372 16.6668C9.00393 16.6689 7.79634 16.3147 6.75958 15.6468C6.93598 15.6684 7.11718 15.6768 7.30078 15.6768C8.36398 15.6768 9.34198 15.3156 10.1184 14.706C9.64524 14.6967 9.18679 14.54 8.80691 14.2578C8.42704 13.9756 8.14468 13.5819 7.99918 13.1316C8.33897 13.1962 8.689 13.1827 9.02278 13.092C8.50924 12.9882 8.04742 12.7099 7.71563 12.3044C7.38384 11.8989 7.20251 11.3911 7.20238 10.8672V10.8396C7.50838 11.0088 7.85878 11.112 8.23078 11.124C7.74934 10.8035 7.40852 10.3112 7.27803 9.74776C7.14755 9.18431 7.23724 8.5923 7.52878 8.0928C8.09873 8.7936 8.80949 9.3669 9.61506 9.77557C10.4206 10.1842 11.303 10.4192 12.2052 10.4652C12.0905 9.97837 12.1399 9.46729 12.3456 9.01141C12.5513 8.55552 12.9019 8.18039 13.3429 7.94432C13.7838 7.70825 14.2904 7.62447 14.7839 7.70601C15.2773 7.78754 15.73 8.02983 16.0716 8.3952C16.5794 8.29473 17.0664 8.10847 17.5116 7.8444C17.3423 8.37016 16.988 8.81661 16.5144 9.1008C16.9642 9.04662 17.4034 8.92569 17.8176 8.742C17.5134 9.19787 17.1301 9.59572 16.686 9.9168V9.9168Z"
+                                    fill="white" />
+                            </svg>
+
+                        </a>
+                        <a href="https://www.linkedin.com/company/zedvest-tech" target={"_blank"} rel="noreferrer">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M12 0.48C5.63758 0.48 0.47998 5.6376 0.47998 12C0.47998 18.3624 5.63758 23.52 12 23.52C18.3624 23.52 23.52 18.3624 23.52 12C23.52 5.6376 18.3624 0.48 12 0.48ZM9.17998 16.7748H6.84718V9.2676H9.17998V16.7748ZM7.99918 8.346C7.26238 8.346 6.78598 7.824 6.78598 7.1784C6.78598 6.5196 7.27678 6.0132 8.02918 6.0132C8.78158 6.0132 9.24238 6.5196 9.25678 7.1784C9.25678 7.824 8.78158 8.346 7.99918 8.346ZM17.7 16.7748H15.3672V12.6144C15.3672 11.646 15.0288 10.9884 14.1852 10.9884C13.5408 10.9884 13.158 11.4336 12.9888 11.862C12.9264 12.0144 12.9108 12.2304 12.9108 12.4452V16.7736H10.5768V11.6616C10.5768 10.7244 10.5468 9.9408 10.5156 9.2664H12.5424L12.6492 10.3092H12.696C13.0032 9.8196 13.7556 9.0972 15.0144 9.0972C16.5492 9.0972 17.7 10.1256 17.7 12.336V16.7748V16.7748Z"
+                                    fill="white" />
+                            </svg>
+                        </a>
+                        <a href="https://www.instagram.com/zedvest_app" target={"_blank"} rel="noreferrer">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M24 12C24 18.6274 18.6274 24 12 24C5.37258 24 0 18.6274 0 12C0 5.37258 5.37258 0 12 0C18.6274 0 24 5.37258 24 12ZM12 10C11.4696 10 10.9609 10.2107 10.5858 10.5858C10.2107 10.9609 10 11.4696 10 12C10 12.5304 10.2107 13.0391 10.5858 13.4142C10.9609 13.7893 11.4696 14 12 14C12.5304 14 13.0391 13.7893 13.4142 13.4142C13.7893 13.0391 14 12.5304 14 12C14 11.4696 13.7893 10.9609 13.4142 10.5858C13.0391 10.2107 12.5304 10 12 10ZM7.05442 7.05442C7.72955 6.37928 8.64522 6 9.6 6H14.4C15.3548 6 16.2705 6.37928 16.9456 7.05442C17.6207 7.72955 18 8.64522 18 9.6V14.4C18 15.3548 17.6207 16.2705 16.9456 16.9456C16.2705 17.6207 15.3548 18 14.4 18H9.6C8.64522 18 7.72955 17.6207 7.05442 16.9456C6.37928 16.2705 6 15.3548 6 14.4V9.6C6 8.64522 6.37928 7.72955 7.05442 7.05442ZM10.0201 10.0201C9.495 10.5452 9.2 11.2574 9.2 12C9.2 12.7426 9.495 13.4548 10.0201 13.9799C10.5452 14.505 11.2574 14.8 12 14.8C12.7426 14.8 13.4548 14.505 13.9799 13.9799C14.505 13.4548 14.8 12.7426 14.8 12C14.8 11.2574 14.505 10.5452 13.9799 10.0201C13.4548 9.495 12.7426 9.2 12 9.2C11.2574 9.2 10.5452 9.495 10.0201 10.0201ZM15.6 9.2H14.8V8.4H15.6V9.2Z"
+                                    fill="white" />
+                            </svg>
+                        </a>
+                    </div>
+                    <p style=" text-align: center ; color: white; font-size: 14px ; text-decoration: none;
+                            display:  block;margin: auto;" class="sm">
+                        Copyright 2022. Zedvest. All rights reserved.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>

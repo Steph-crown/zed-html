@@ -1,0 +1,18 @@
+:root {
+    --theme: #f7a400;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Axiforma", sans-serif;
+}
+
+section,
+header {
+    padding: 0 calc(0.08 * 100vw);
+}
+
+.App {
+    background-color: #1e2329;
+}
